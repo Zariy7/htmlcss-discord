@@ -12,6 +12,10 @@
     background-color: white;
 }
 
+.bg-lightgray{
+    background-color: lightgray;
+}
+
 header{
     padding: 10px;
     font-weight: 500;
@@ -101,7 +105,7 @@ div > ul{
     color: black;
 }
 
-.bg-white > div{
+.bg-white > div, .bg-lightgray > div{
     margin: 0 auto;
     max-width: 991px;
 }
