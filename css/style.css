@@ -3,3 +3,115 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.bg-discordblue{
+    background-color: rgba(49,97,224,255);
+}
+
+.bg-white{
+    background-color: white;
+}
+
+header{
+    padding: 10px;
+    font-weight: 500;
+}
+
+header > div{
+    max-width: 991px;
+    margin: 20px auto;
+    color: white;
+}
+
+div > ul{
+    list-style: none;
+    justify-content: space-around;
+}
+
+.container{
+    display: flex;
+}
+
+.col-15{
+    width: 15%;
+}
+
+.col-45{
+    width: 45%;
+}
+
+.col-70{
+    width: 70%;
+}
+
+.col-65{
+    width: 65%;
+}
+
+.col-35{
+    width: 35%;
+}
+
+.accedi{
+    padding: 10px;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 35%;
+}
+
+.jumbo{
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+}
+
+.jumbo > div{
+    margin: 0 auto;
+    max-width: 700px;
+    flex-direction: column;
+    padding: 150px 0;
+    color: white;
+    gap: 20px 0;
+    text-align: center;
+    font-size: 25px;
+}
+
+.row{
+    width: 100%;
+    justify-content: center;
+}
+
+.row > h1{
+    font-size: 50px;
+}
+
+.row.container{
+    justify-content: space-between;
+}
+
+.button{
+    padding: 10px 0px;
+    color: white;
+    background-color: black;
+    border-radius: 25px;
+}
+
+.button.col-45:first-of-type{
+    background-color: white;
+    color: black;
+}
+
+.bg-white > div{
+    margin: 0 auto;
+    max-width: 991px;
+}
+
+.col-35.container{
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+
+p{
+    line-height: 1.6;
+}
