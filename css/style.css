@@ -10,10 +10,17 @@
 
 .bg-white{
     background-color: white;
+    padding: 25px 0;
 }
 
 .bg-lightgray{
     background-color: lightgray;
+    padding: 25px 0;
+}
+
+.bg-darkgray{
+    background-color: rgb(53, 53, 53);
+    padding: 25px 0;
 }
 
 header{
@@ -105,7 +112,7 @@ div > ul{
     color: black;
 }
 
-.bg-white > div, .bg-lightgray > div{
+.bg-white > div, .bg-lightgray > div, footer > div{
     margin: 0 auto;
     max-width: 991px;
 }
@@ -148,4 +155,28 @@ p{
     color: white;
     padding: 15px;
     border-radius: 20px;
+    text-align: center;
+}
+
+footer{
+    color: rgb(125, 100, 236);
+}
+
+footer > div.container{
+    padding: 50px 0;
+}
+
+.footerlist{
+    list-style-type: none;
+    color: white;
+}
+
+.footerlist > li{
+    padding: 5px 0px;
+}
+
+hr{
+    border: 1px solid rgb(125, 100, 236);
+    margin: 0px auto;
+    max-width: 991px;
 }
