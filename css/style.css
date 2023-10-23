@@ -119,3 +119,21 @@ div > ul{
 p{
     line-height: 1.6;
 }
+
+#fourth-content-box{
+    flex-direction: column;
+    text-align: center;
+}
+
+#fourth-content-box > h1, #fourth-content-box > p{
+    padding: 25px 25px 0px 25px;
+}
+
+.prompt{
+    align-self: center;
+    background-image: url("../img/stars.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 35%;
+    padding: 25px;
+}
