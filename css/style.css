@@ -123,17 +123,29 @@ p{
 #fourth-content-box{
     flex-direction: column;
     text-align: center;
+    align-items: center;
 }
 
 #fourth-content-box > h1, #fourth-content-box > p{
     padding: 25px 25px 0px 25px;
 }
 
+#fourth-content-box> {
+    flex-direction: column;
+    text-align: center;
+}
+
 .prompt{
-    align-self: center;
     background-image: url("../img/stars.svg");
     background-size: contain;
     background-repeat: no-repeat;
     max-width: 35%;
     padding: 25px;
+}
+
+.download{
+    background-color: rgb(125, 100, 236);
+    color: white;
+    padding: 15px;
+    border-radius: 20px;
 }
